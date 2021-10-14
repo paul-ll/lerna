@@ -1,0 +1,16 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "eslint-plugin-prettier": "^4.0.0",
+    "lerna": "^3.22.1",
+    "prettier": "^2.4.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --ext .js packages/**/*.js --no-error-on-unmatched-pattern --fix"
+  },
+  "dependencies": {
+    "eslint": "^8.0.1"
+  }
+}
